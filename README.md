@@ -17,3 +17,12 @@ Vamos a fazer um sistema em base a um jogo ou a um conjunto de jogos, incluindo 
 - Características configuráveis de um jogo
 - Menu de Jogos
 - Repórteres Básicos de Jogos
+
+## Executar
+Procedimento para executar
+- Criar Tabela Log:
+``$ py manage.py makemigrations``
+- Modificar Banco de Dados:
+``$ py manage.py migrate``
+- Executar Jogo com Banco de Dados:
+``py game.py``
